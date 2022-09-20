@@ -1,7 +1,12 @@
 {
-	"prefix": "t!",
-	"verifyRole": "1016704626956963870",
-	"messages": {
-		"COOLDOWN_MESSAGE": "You are on `<duration>` cooldown!"
-	}
+  "prefix": "t!",
+  "mongo": {
+    "verifyRole": "1016704626956963870"
+  },
+  "numbers": {
+    "verifyRole": "802053449411198997"
+  },
+  "messages": {
+    "COOLDOWN_MESSAGE": "You are on `<duration>` cooldown!"
+  }
 }
