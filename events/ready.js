@@ -4,18 +4,23 @@ require('colors');
 
 client.on('ready', () => {
   const activities = [
+    // {
+    //   name: `${client.guilds.cache.size} Servers`,
+    //   type: ActivityType.Listening,
+    // },
     {
-      name: `${client.guilds.cache.size} Servers`,
+      name: `{/} Slash Commands`,
+      // type: ActivityType.Playing,
       type: ActivityType.Listening,
     },
-    {
-      name: `${client.channels.cache.size} Channels`,
-      type: ActivityType.Playing,
-    },
-    { name: `${client.users.cache.size} Users`, type: ActivityType.Watching },
+    // {
+    //   name: `${client.channels.cache.size} Channels`,
+    //   type: ActivityType.Playing,
+    // },
+    // { name: `${client.users.cache.size} Users`, type: ActivityType.Watching },
     // { name: `top.gg`, type: ActivityType.Competing }
   ];
-  const status = ['online', 'dnd', 'idle'];
+  const status = ['online']; // ['online', 'dnd', 'idle'];
   let i = 0;
   setInterval(() => {
     if (i >= activities.length) i = 0;
