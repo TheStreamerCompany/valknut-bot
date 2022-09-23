@@ -2,7 +2,7 @@
 <h1 align="center">
    <b>Valknut Bot</b> - Discord.js v14
 </h1>
-<h4 align="center">Commands, Events, Permissions and Cooldown Handlers for Discord.js v14 bot ~ Made by Nathaniel</h4>
+<h4 align="center">Commands, Events, Permissions and Cooldown Handlers for Discord.js v14 bot ~ Made by 36095</h4>
 
 <p align="center">
 <a href="https://nodejs.org/en/download/">
@@ -13,7 +13,7 @@
    <img src="https://img.shields.io/badge/discord.js-v14-blue?style=for-the-badge" alt="discord.js">
 </a>
 
-<a href="https://github.com/Nathaniel-VFX/Discord.js-v14-Command-Handlers">
+<a href="https://github.com/TheStreamerCompany/valknut-bot">
    <img src="https://img.shields.io/badge/version-latest-red?style=for-the-badge" alt="node.js">
 </a>
 
@@ -21,20 +21,20 @@
 
 <p align="center">
 
-<a href="https://github.com/Nathaniel-VFX/Discord.js-v14-Command-Handlers/fork">
+<a href="https://github.com/TheStreamerCompany/valknut-bot/fork">
    <img src="https://img.shields.io/badge/Fork-github-blueviolet?logo=githubactions&logoColor=white&style=for-the-badge" alt="github-fork">
 </a>
 
-<a href="https://replit.com/@LeeNathaniel/Discordjs-v14-bot">
+<!-- <a href="https://replit.com/@NumbersOficial/valknut-bot">
    <img src="https://img.shields.io/badge/Fork-Replit-white?logo=githubactions&logoColor=white&style=for-the-badge" alt="replit-fork">
-</a>
+</a> -->
 
 </p>
 
 <p align="center">
 
 <a href="https://github.com/TheStreamerCompany/valknut-bot">
-   <img src="https://img.shields.io/github/forks/Nathaniel-VFX/Discord.js-v14-Command-Handlers?logo=githubactions&logoColor=success&style=social" alt="github-fork">
+   <img src="https://img.shields.io/github/forks/TheStreamerCompany/valknut-bot?logo=githubactions&logoColor=success&style=social" alt="github-fork">
 </a>
 
 <a href="https://github.com/TheStreamerCompany/valknut-bot">
@@ -60,12 +60,13 @@
 
 ## Preview
 
-<img src="https://i.imgur.com/8K2MgWQ.png"/>
+<!-- <img src="https://i.imgur.com/8K2MgWQ.png"/> -->
 
 ## Installation & Setup
 
 ```console
 npm install
+npm update
 ```
 
 Leave the `GUILD_ID` in `.env` file blank if you want to register slash commands globally.
@@ -80,7 +81,7 @@ If you are using [replit](https://replit.com/) you can remove `require('dotenv')
 
 ## Made by 36095 (36095#4702)
 
-These command handlers are made by Nathaniel (Nathaniel VFX#8080)
+These command handlers are made by 36095 (36095#4702)
 
 **⭐ Remember to star the repository if you like it! ⭐**
 
@@ -95,3 +96,7 @@ Discord: `36095#4702`
 If you have any problem, feel free to contact me. 😉
 
 <!-- <img src="https://discord.c99.nl/widget/theme-2/753180650202202154.png" alt="Discord"/> -->
+
+# License
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
