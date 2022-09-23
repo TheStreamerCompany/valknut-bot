@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD033 -->
 <h1 align="center">
    <b>Valknut Bot</b> - Discord.js v14
 </h1>
@@ -63,8 +64,8 @@
 
 ## Installation & Setup
 
-```
-npm install discord.jsv14 @discordjs/rest ascii-table discord-api-types ms dotenv chalk@2.4.1
+```console
+npm install
 ```
 
 Leave the `GUILD_ID` in `.env` file blank if you want to register slash commands globally.
