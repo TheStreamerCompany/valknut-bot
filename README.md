@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable -->
 <h1 align="center">
    <b>Valknut Bot</b> - Discord.js v14
 </h1>
