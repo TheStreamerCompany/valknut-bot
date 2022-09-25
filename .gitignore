@@ -3,3 +3,4 @@ node_modules
 *lock.json
 env-config.json
 **.dev
+test.md

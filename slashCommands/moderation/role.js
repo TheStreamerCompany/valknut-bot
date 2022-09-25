@@ -1,4 +1,4 @@
-const { EmbedBuilder, ApplicationCommandType } = require('discord.js');
+const { EmbedBuilder, RoleManager, ApplicationCommandType } = require('discord.js');
 
 module.exports = {
   name: 'role',
@@ -33,13 +33,13 @@ module.exports = {
         const member = interaction.guild.members.cache.get(
           interaction.options.get('user').value
         );
-        const role = interaction.options.get('role').role;
+        const rol = interaction.options.get('rol').role;
 
         await member.roles.add(role.id);
         const embed = new EmbedBuilder()
           .setTitle('¡Rol Añadido!')
           .setDescription(
-            `Se ha añadido exitosamente el rol: ${role} a ${member}`
+            `Se ha añadido exitosamente el rol: ${rol} a ${member}`
           )
           .setColor('Green')
           .setTimestamp()
